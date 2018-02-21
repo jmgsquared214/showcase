@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+
+<hibernate-mapping>
+    <class name="com.smartgwt.sample.showcase.server.OrderItem" table="masterDetail_orderItem" >
+        <id name="pk" type="long">
+            <generator class="native"/>
+        </id>
+        <property name="itemDescription" type="string" />
+        <property name="quantity" type="long" />
+        <property name="unitPrice" type="float"  />
+        
+    </class>
+</hibernate-mapping>
